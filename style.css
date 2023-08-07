@@ -1,0 +1,95 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/1.jpg);
+    height: 100vh;
+}
+.content{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  
+}
+.space{
+  display: grid;
+  height: 80px;
+  width: 80px;
+  font-size: 80px;
+  text-align: center;
+  border: 2px solid black;
+  background-color: whitesmoke;
+}
+.begin{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: blue
+}
+.restart{
+  height: 100%;
+  width: 120px;
+  font-size: 50px;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+.take{
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  
+}
+.end{
+  height: 50px;
+  width: 120px;
+  font-size: 40px;
+  text-align: center;
+  cursor: pointer;
+  background-color: whitesmoke;
+  border: 2px solid black;
+}
+.you{
+  display: none
+}
+.choose{
+  display: grid;
+  height: 100vh
+}
+.choice{
+  display: grid;
+  height: 50%
+}
+#single{
+  height: 80px;
+  width: 100%;
+  font-size: 60px;
+  text-align: center;
+  background-color: blue;
+  color: whitesmoke;
+}
+#two{
+  height: 80px;
+  width: 100%;
+  font-size: 60px;
+  text-align: center;
+  background-color: red;
+  color: whitesmoke;
+}
+#back{
+  height: 40px;
+  width: 70px;
+  font-size: 30px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+.power{
+  display: none;
+  width: 100%;
+  height: 80px;
+  justify-content: left;
+  align-items: flex-end;
+}
